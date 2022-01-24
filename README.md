@@ -25,7 +25,9 @@ f) Verify the cart
   } 
    * we can run cross browser  by running Regression.xml file using Testng
    
-   * we can run the Script from CMD using ==== >  mvn test -PRegression
+   * we can run the Script cross browse from CMD using ==== >  mvn test -PRegression
+   
+   * we can run the Script for  chrome browser from CMD using ==== >  mvn test 
    
    * If you are willing to run this script using a Mac machine and via IDE, please edit in BaseTest.java file by removing “.exe” then adding the compatible chrome driver and   adding it to the driver folder.
 
