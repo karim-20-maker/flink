@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Cross Browser Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test On Chrome(failed)">
+    <parameter name="BrowserType" value="Chrome"/>
+    <classes>
+      <class name="testScripts.TemperatureTest">
+        <methods>
+          <include name="temperature"/>
+          <include name="beforeClassSetUp"/>
+          <include name="beforeMethod"/>
+          <include name="calling"/>
+          <include name="afterClass"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- testScripts.TemperatureTest -->
+    </classes>
+  </test> <!-- Test On Chrome(failed) -->
+  <test thread-count="2" parallel="tests" name="Test On Firefox(failed)">
+    <parameter name="BrowserType" value="firefox"/>
+    <classes>
+      <class name="testScripts.TemperatureTest">
+        <methods>
+          <include name="temperature"/>
+          <include name="beforeClassSetUp"/>
+          <include name="beforeMethod"/>
+          <include name="calling"/>
+          <include name="afterClass"/>
+          <include name="takeScreenshot"/>
+        </methods>
+      </class> <!-- testScripts.TemperatureTest -->
+    </classes>
+  </test> <!-- Test On Firefox(failed) -->
+</suite> <!-- Failed suite [Cross Browser Testing] -->

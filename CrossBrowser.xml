@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Testing" parallel = "tests" thread-count = "2">  	
+  	
+  	
+  <test name = "Test On Chrome">
+		<parameter name = "BrowserType" value = "Chrome"/>
+		  	<classes>
+	  			<class name = "testScripts.TemperatureTest"/>
+	  		</classes>
+  	</test> <!-- Test On Chrome --> 
+   <test name = "Test On Firefox">
+		<parameter name = "BrowserType" value = "firefox"/>
+		  	<classes>
+	  			<class name = "testScripts.TemperatureTest"/>
+	  		</classes>
+  	</test> <!-- Test On Firefox --> 	  	
+</suite> <!-- Cross Browser Testing -->
