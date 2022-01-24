@@ -22,7 +22,7 @@ f) Verify the cart
 
 
   } 
-  * we can run cross browser  by running Regression file using Testng
+  * we can run cross browser  by running Regression.xml file using Testng
 
    * we can run the Script from CMD using ==== >  mvn test -PRegression
 
