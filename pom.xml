@@ -21,7 +21,7 @@
     </build>
     <profiles>
   <profile>
-  <id>Regression</id>
+  <id>CrossBrowser</id>
   <build>
     <pluginManagement>
       <plugins>
