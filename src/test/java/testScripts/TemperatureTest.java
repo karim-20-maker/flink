@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import Utils.ExcelReader;
+
 import pages.AddToCart;
 import pages.MoisturizerPage;
 import pages.PaymentPage;
@@ -19,7 +19,7 @@ public class TemperatureTest  extends BaseTest{
 	AddToCart addtocart ;
 	PaymentPage payment;
 	PaymentSuccessPage paymentSuccess;
-	ExcelReader excel ;
+	
 
 	
 	
@@ -78,7 +78,7 @@ public class TemperatureTest  extends BaseTest{
 					Thread.sleep(5000);
 					payment.enterCardNumber("4242424242424242");
 					payment.entermonthYear("03/26");
-					payment.enterEmail(ExcelReader.Email);
+					payment.enterEmail("test@test.com");
 					payment.enterCvc("123");
 					payment.enterZIPcode("21927");
 					payment.submitButton();
