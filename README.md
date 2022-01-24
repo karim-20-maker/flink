@@ -22,8 +22,8 @@ f) Verify the cart
 
 
   } 
-  *we can run cross btowser  by running croosBrowser file using Testng
+  * we can run cross browser  by running croosBrowser file using Testng
 
-   we can run the Script from CMD using ==== >  mvn test -PRegression
+   * we can run the Script from CMD using ==== >  mvn test -PRegression
 
 
