@@ -1,8 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>flink</groupId>
-  <artifactId>flink</artifactId>
+  <groupId>Karim</groupId>
+  <artifactId>VOIS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>VOIS</name>
+  <description>VOIS</description>
+  <dependencies>
   <build>
         <plugins>
             <plugin>
@@ -28,7 +31,7 @@
           <version>3.0.0-M3</version>
             <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>CrossBrowser.xml</suiteXmlFile>
+            <suiteXmlFile>regression.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         </plugin>
@@ -37,7 +40,6 @@
   </build>
   </profile>
   </profiles>
-   <dependencies>
   <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
@@ -66,28 +68,23 @@
        <artifactId>poi</artifactId>
        <version>3.15</version>
     </dependency>
-    <dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
   <groupId>org.apache.poi</groupId>
   <artifactId>poi-ooxml</artifactId>
   <version>3.15</version>
 </dependency>
-
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
 <!-- pom.xml -->
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>3.1.5</version>
 </dependency>
-<dependency>
-<groupId>com.fasterxml.jackson.core</groupId>
-<artifactId>jackson-databind</artifactId>
-<version>2.13.0</version>
-</dependency>
   </dependencies>
+  
 </project>
