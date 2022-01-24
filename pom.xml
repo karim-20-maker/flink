@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Karim</groupId>
-  <artifactId>VOIS</artifactId>
+  <artifactId>flink</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>VOIS</name>
-  <description>VOIS</description>
-  <dependencies>
+  <name>flink</name>
+  <description>flink</description>
+  
   <build>
         <plugins>
             <plugin>
@@ -45,6 +45,8 @@
     <artifactId>testng</artifactId>
     <version>7.1.0</version>
     <scope>test</scope>
+  <dependencies>
+  
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
 <dependency>
