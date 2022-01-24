@@ -18,12 +18,15 @@ f) Verify the cart
           Selenium,
           Maven , 
           TestNgو
-          and Pom Pattern 
+          and Pom Pattern ,
+          Windows
 
 
   } 
-  * we can run cross browser  by running Regression.xml file using Testng
-
+   * we can run cross browser  by running Regression.xml file using Testng
+   
    * we can run the Script from CMD using ==== >  mvn test -PRegression
+   
+   * If you are willing to run this script using a Mac machine and via IDE, please edit in BaseTest.java file by removing “.exe” then adding the compatible chrome driver and   adding it to the driver folder.
 
 
