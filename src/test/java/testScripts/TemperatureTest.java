@@ -33,7 +33,6 @@ public class TemperatureTest  extends BaseTest{
 		addtocart = new AddToCart(Driver);
 		payment = new PaymentPage(Driver);
 		paymentSuccess = new PaymentSuccessPage(Driver);
-		excel = new ExcelReader();
 
 	
 		
@@ -42,7 +41,7 @@ public class TemperatureTest  extends BaseTest{
 				}
 	
 	 
-	@Test (dataProvider = "Data.xlsx")
+	@Test 
 	public void temperature() throws InterruptedException {
 		
 			
